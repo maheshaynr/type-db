@@ -1,0 +1,6 @@
+match
+$user isa user, has name "Alex";
+
+(subject: $user, action: $act) isa permission;
+fetch
+$act: name;
